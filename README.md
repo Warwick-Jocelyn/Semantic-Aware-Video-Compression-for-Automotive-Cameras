@@ -16,7 +16,7 @@ The KITTI-Step video can also be downloaded from the [official website](https://
 ## Implementation
 We can use any segmentation model for stream seperation, here, we use the CCNet for the Cityscapes, and the EfficeintPS for the KITTI-Step dataset. 
 The CC-Net is re-trained with the pre-trained model here:
-Here is a vedio clip to show how our two streams look like after the segmentation.
+Here is a [vedio clip](https://mega.nz/folder/hlJkRARQ#lZoi_3-o7bn3TEOVBO33YA) to show how our ROI streams look like after the segmentation and macroblock processing.
 
 ![Illustrating of separation of ROI and non-ROI streams. ](/doc/Fig-4.png)
 
