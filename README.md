@@ -8,7 +8,7 @@ we propose a semantic-aware (SA) video compression (SAC) framework that compress
 
 
 This is the **PyTorch re-implementation** of our TIV paper: 
-[Semantic-Aware Video Compression for Automotive Cameras](https://arxiv.org/abs/1911.10194](https://ieeexplore.ieee.org/abstract/document/10103198). 
+[Semantic-Aware Video Compression for Automotive Cameras](https://ieeexplore.ieee.org/abstract/document/10103198). 
 
 ## Dataset
 The cityscape video can be downloaded from the [official website](https://www.cityscapes-dataset.com/downloads/)
