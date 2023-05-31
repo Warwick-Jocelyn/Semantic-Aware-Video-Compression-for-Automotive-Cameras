@@ -59,5 +59,3 @@ If you use the EfficientPS for segmentation, please consider citing
 }
 
 ```
-
-If you use the HRNet backbone, please consider citing
