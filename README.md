@@ -22,6 +22,9 @@ Here is a vedio clip to show how our two streams look like after the segmentatio
 ![Illustrating of separation of ROI and non-ROI streams. ](/doc/Fig-4.png)
 
 
+
+
+
 ## Citing SAC
 If you find this code helpful in your research or wish to refer to the baseline results, please use the following BibTeX entry.
 
