@@ -3,7 +3,17 @@ Codes for the “Semantic-Aware Video Compression for Automotive Cameras”
 
 we propose a semantic-aware (SA) video compression (SAC) framework that compresses separately and simultaneously region-of-interest and region-out-of-interest of automotive camera video frames, before transmitting them to processing unit(s), where the data are used for perception tasks, such as object detection, semantic segmentation, etc. Using our newly proposed technique, the region-of-interest (ROI), encapsulating most of the road stakeholders, retains higher quality using lower compression ratio.
 
-![Illustrating of Semantic-aware Compression (SAC) on the vehicle](/doc/Fig-1.png)
+<img src="/doc/Fig-1.png" alt="Illustrating of Semantic-aware Compression (SAC) on the vehicle" width="400"/>
+<style>
+img {
+  max-width: 50%;
+  height: auto;
+}
+</style>
+
+
+
+%![Illustrating of Semantic-aware Compression (SAC) on the vehicle](/doc/Fig-1.png)
 
 
 
