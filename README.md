@@ -33,7 +33,6 @@ run codes with the following cmd:
 cd ./Codes/CCNet
 python Rename_Rescale.py
 python test.py
-python test.py
 python TwoStream_generate.py
 ```
 
