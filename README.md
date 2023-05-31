@@ -5,7 +5,7 @@ we propose a semantic-aware (SA) video compression (SAC) framework that compress
 
 ![Illustrating of Semantic-aware Compression (SAC) on the vehicle](/doc/Fig-1.png)
 
-![Illustrating of separation of ROI and non-ROI streams. ](/doc/Fig-4.png)
+
 
 This is the **PyTorch re-implementation** of our TIV paper: 
 [Semantic-Aware Video Compression for Automotive Cameras]([https://arxiv.org/abs/1911.10194](https://ieeexplore.ieee.org/abstract/document/10103198)). 
@@ -18,6 +18,8 @@ The KITTI-Step video can also be downloaded from the [official website](https://
 We can use any segmentation model for stream seperation, here, we use the CCNet for the Cityscapes, and the EfficeintPS for the KITTI-Step dataset. 
 The CC-Net is re-trained with the pre-trained model here:
 Here is a vedio clip to show how our two streams look like after the segmentation.
+
+![Illustrating of separation of ROI and non-ROI streams. ](/doc/Fig-4.png)
 
 
 ## Citing SAC
