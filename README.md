@@ -10,7 +10,7 @@ This is the **PyTorch re-implementation** of our TIV paper:
 [Semantic-Aware Video Compression for Automotive Cameras](https://ieeexplore.ieee.org/abstract/document/10103198). 
 
 ## Visual Results
-Here is a [vedio clip](https://mega.nz/folder/hlJkRARQ#lZoi_3-o7bn3TEOVBO33YA) to show how our ROI streams look like after the segmentation and macroblock processing.
+Here is a vedio clip for [ROI](https://mega.nz/folder/hlJkRARQ#lZoi_3-o7bn3TEOVBO33YA) and [non-ROI](https://mega.nz/file/UOdkCSCb#q2omliEHwUfNXrEHHkEgdPcBkfb_Kwfd-zGkWY62_3Q) to show how the two streams look like after the segmentation and macroblock processing. Image frames can be seen from ./doc/*.png
 
 ## Requirements
 You can use any segmentation model for the stream seperation, here, we show two examples of using the CCNet for the Cityscapes, and the EfficeintPS for the KITTI-Step dataset. 
@@ -27,7 +27,7 @@ You can use any segmentation model for the stream seperation, here, we show two 
 | [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS) | [KITTI-STEP](https://www.cvlibs.net/datasets/kitti/eval_step.php) |[Model](https://www.dropbox.com/s/4z3qiaew8qq7y8n/efficientPS_kitti.zip?dl=0)|
 
 ## Run
-### Step 1 ROI and non-ROI Stream Generation
+#### Step 1- Two Stream Generation (Segmentation)
 run codes with the following cmd:
 ```
 cd ./Codes/CCNet
@@ -41,7 +41,7 @@ Note:
 - The CC-Net is re-trained and give results on the four categories like the Fig. 2.
 - The ROI and non ROI mask generation from KITTI-STEP require some post-processing to access the labels.  
 
-### Step 2 Compression
+#### Step-2 Compression
 Some commonly used cmd for [FFMPEG](https://ffmpeg.org/) can be found from the ./code/compression/., you can change the constant rate factor (-crf) for changing the compression quality. 
 
 There are also lots of parameters such as framerate, codecs that you may adjust acording to your need, having fun play with them !
@@ -52,7 +52,7 @@ After generating the two frames of the stream, we can combine the stream after c
 python combine.py
 ```
 
-### Step 3 Evaluation
+#### Step-3 Evaluation
 ```
 cd ./Codes/Eva/
 python *** 
