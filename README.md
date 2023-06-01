@@ -26,6 +26,8 @@ You can use any segmentation model for the stream seperation, here, we show two 
 | [CCNet](https://github.com/speedinghzl/CCNet)  | [Cityscapes](https://www.cityscapes-dataset.com/downloads/) | [Model](https://mega.nz/file/9honnLgQ#41ajWjzjc1vbuiEJYVlSfrsmna-fqLEi18q4Sa3qqNE)|
 | [EfficientPS](https://github.com/DeepSceneSeg/EfficientPS) | [KITTI-STEP](https://www.cvlibs.net/datasets/kitti/eval_step.php) |[Model](https://www.dropbox.com/s/4z3qiaew8qq7y8n/efficientPS_kitti.zip?dl=0)|
 
+- Download the demo video input with 154 frames here: [frames](https://mega.nz/folder/tS8QSaxL#5yhdfe9ogpKk18dRwX7WCw).
+
 ## Run
 #### Step 1- Two Stream Generation (Segmentation)
 run codes with the following cmd:
