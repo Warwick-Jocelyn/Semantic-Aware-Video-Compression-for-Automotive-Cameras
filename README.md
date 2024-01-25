@@ -10,11 +10,11 @@ This is the **PyTorch re-implementation** of our TIV paper:
 [Semantic-Aware Video Compression for Automotive Cameras](https://ieeexplore.ieee.org/abstract/document/10103198). 
 
 ## Visual Results
-Here is a vedio clip for [ROI](
+Here is a video clip for [ROI](
 https://mega.nz/folder/hlJkRARQ#lZoi_3-o7bn3TEOVBO33YA/file/844SURCT) and [non-ROI](https://mega.nz/file/UOdkCSCb#q2omliEHwUfNXrEHHkEgdPcBkfb_Kwfd-zGkWY62_3Q) to show how the two streams look like after the segmentation and macroblock processing. Image frames can be seen from ./doc/*.png
 
 ## Requirements
-You can use any segmentation model for the stream seperation, here, we show two examples of using the CCNet for the Cityscapes, and the EfficeintPS for the KITTI-Step dataset. 
+You can use any segmentation model for the stream separation, here, we show two examples of using the CCNet for the Cityscapes, and the EfficeintPS for the KITTI-Step dataset. 
 ![Illustrating of separation of ROI and non-ROI streams. ](/doc/Fig-4.png)
 - The requirement for CC-Net is from [here](https://github.com/speedinghzl/CCNet#requirements).
 - Requirement for EfficientPS is from [here](https://github.com/DeepSceneSeg/EfficientPS#system-requirements).
