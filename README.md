@@ -75,31 +75,3 @@ If you find this code helpful in your research or wish to refer to the baseline 
   year={2023},
   publisher={IEEE}
 }
-
-```
-
-If you use the CCNet for segmentation, please consider citing
-```BibTeX
-@inproceedings{huang2019ccnet,
-  title={Ccnet: Criss-cross attention for semantic segmentation},
-  author={Huang, Zilong and Wang, Xinggang and Huang, Lichao and Huang, Chang and Wei, Yunchao and Liu, Wenyu},
-  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
-  pages={603--612},
-  year={2019}
-}
-
-```
-If you use the EfficientPS for segmentation, please consider citing
-```BibTeX
-@article{mohan2021efficientps,
-  title={Efficientps: Efficient panoptic segmentation},
-  author={Mohan, Rohit and Valada, Abhinav},
-  journal={International Journal of Computer Vision},
-  volume={129},
-  number={5},
-  pages={1551--1579},
-  year={2021},
-  publisher={Springer}
-}
-
-```
